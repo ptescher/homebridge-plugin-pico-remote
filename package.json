@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-pico-remote",
+  "version": "0.1.0",
+  "description": "A plugin that exposes Lutron pico remotes as HomeKit buttons.",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ptescher/homebridge-pico-remote.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ptescher/homebridge-pico-remote/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "scripts": {
+    "test": "node tests.js",
+    "dev": "homebridge -C -D -P ./ -U ./"
+  },
+  "dependencies": {
+    "telnet-client": "^1.2.11"
+  },
+  "devDependencies": {
+    "homebridge": "^0.4.50"
+  }
+}
